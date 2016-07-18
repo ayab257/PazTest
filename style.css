@@ -21,6 +21,14 @@ nav ul li{
 	color: white;
 	font-weight: bold;
 }
+
+nav ul li ul{
+	position: absolute;
+}
+nav ul li ul li{
+	list-style: none;
+	float: right;
+}
 header{
 	background-color: #909090;
 	width: 100%;
